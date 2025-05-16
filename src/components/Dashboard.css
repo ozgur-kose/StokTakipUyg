@@ -1,0 +1,16 @@
+.dashboard-wrapper {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .dashboard-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #1890ff;
+  }
+  
+  .dashboard-card {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 12px;
+  }
+  

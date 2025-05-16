@@ -1,0 +1,96 @@
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #141e30, #243b55);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .login-form {
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 400px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 24px;
+    position: relative;
+  }
+  
+  .login-form h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #1890ff;
+    margin: 8px auto 0;
+    border-radius: 2px;
+  }
+  
+  .login-form .ant-input-affix-wrapper {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .login-form .ant-input {
+    background: transparent;
+    color: #fff;
+  }
+  
+  .login-form .ant-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .login-form .ant-checkbox-inner {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .login-form .ant-btn-primary {
+    background-color: #1890ff;
+    border: none;
+    height: 42px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .login-form .ant-btn-primary:hover {
+    background-color: #40a9ff;
+  }
+  
+  .login-form .extra-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+  }
+  
+  .login-form a {
+    color: #91d5ff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .login-form a:hover {
+    color: #69c0ff;
+  }
+  
+  .login-form .ant-form-item {
+    margin-bottom: 20px;
+  }
+  

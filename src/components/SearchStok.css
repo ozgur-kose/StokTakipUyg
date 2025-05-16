@@ -1,0 +1,68 @@
+.search-stok-container {
+    padding: 24px;
+    background: linear-gradient(to right, #ffffff, #466799);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    overflow: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .search-stok-container h2 {
+    margin-bottom: 20px;
+    color: #05304d;
+    font-size: 24px;
+  }
+  
+  .form-row {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #05304d;
+  }
+  
+  .form-group input {
+    padding: 8px 10px;
+    width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    background-color: white;
+  }
+  
+  .form-group input:focus {
+    border-color: #1677ff;
+    box-shadow: 0 0 4px rgba(22, 119, 255, 0.3);
+    outline: none;
+  }
+  
+  .form-button {
+    margin-top: 10px;
+  }
+  
+  .form-button button {
+    padding: 10px 20px;
+    background-color: #162f52;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button button:hover {
+    background-color: #0b5ed7;
+  }
+  

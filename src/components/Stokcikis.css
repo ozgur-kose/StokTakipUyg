@@ -1,0 +1,19 @@
+/* StokCikis.css */
+.stok-cikis-container {
+    padding: 24px;
+    background: #fff;
+    min-height: 360px;
+  }
+  
+  .stok-cikis-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .ant-form-item {
+    margin-bottom: 20px;
+  }
+  
+  .ant-btn-primary {
+    margin-top: 20px;
+  }
+  
